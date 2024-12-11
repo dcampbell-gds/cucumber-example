@@ -1,6 +1,6 @@
 import { strict as assert } from 'assert';
 import { Given, When, Then } from '@cucumber/cucumber';
-import { isItFriday } from '../../index';
+import { isItFriday } from '../../../../src/index';
 
 Given('today is Sunday', function () {
   // Write code here that turns the phrase above into concrete actions
